@@ -51,6 +51,32 @@ const dirtySouth = [{
     points: 1000
 },
 ]
+const kingOfHipHop = [{
+    Question:"who coined trap music?",
+    Answer:"T.I",
+    points: 200
+},
+{
+    Question:"what was the first rap song?",
+    Answer:"Rappers Delight",
+    points: 400
+},
+{
+    Question:"who is the founder of Hip-Hop?",
+    Answer:"Grand Master Flash",
+    points: 600
+},
+{
+    Question:"How many pillars of Hip-Hop are there?",
+    Answer:"3",
+    points: 800
+},
+{
+    Question:"who is the GOAT?",
+    Answer:"50 Cent",
+    points: 1000
+},
+]
 
 let score = 0;
     $('.hist-2').on('click', function(){
@@ -172,6 +198,67 @@ let score = 0;
         } else {
             alert("incorrect")
             score -= dirtySouth[4].points;
+            $('.score').html(score);
+        }
+    });
+    $('.koh2').on('click', function(){
+        const y = prompt(kingOfHipHop[0].Question);
+        if (y === kingOfHipHop[0].Answer) {
+            alert("correct");
+            score += kingOfHipHop[0].points;
+            $('.score').html(score);
+        } else {
+            alert("incorrect")
+            score -= kingOfHipHop[0].points;
+            $('.score').html(score);
+        }
+    });
+
+    $('.koh4').on('click', function() {
+        const y = prompt(kingOfHipHop[1].Question);
+        if (y === kingOfHipHop[1].Answer) {
+            alert("correct");
+            score += kingOfHipHop[1].points;
+            $('.score').html(score);
+        } else {
+            alert("incorrect")
+            score -= kingOfHipHop[1].points;
+            $('.score').html(score);
+        }
+    });
+    $('.koh6').on('click', function() {
+        const y = prompt(kingOfHipHop[2].Question);
+        if (y === kingOfHipHop[2].Answer) {
+            alert("correct");
+            score += kingOfHipHop[2].points;
+            $('.score').html(score);
+        } else {
+            alert("incorrect")
+            score -= kingOfHipHop[2].points;
+            $('.score').html(score);
+        }
+    });
+    $('.koh8').on('click', function() {
+        const y = prompt(kingOfHipHop[3].Question);
+        if (y === kingOfHipHop[3].Answer) {
+            alert("correct");
+            score += kingOfHipHop[3].points;
+            $('.score').html(score);
+        } else {
+            alert("incorrect")
+            score -= kingOfHipHop[3].points;
+            $('.score').html(score);
+        }
+    });
+    $('.koh10').on('click', function() {
+        const y = prompt(kingOfHipHop[4].Question);
+        if (y === kingOfHipHop[4].Answer) {
+            alert("correct");
+            score += kingOfHipHop[4].points;
+            $('.score').html(score);
+        } else {
+            alert("incorrect")
+            score -= kingOfHipHop[4].points;
             $('.score').html(score);
         }
     });
