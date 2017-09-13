@@ -1,0 +1,32 @@
+body{
+    background-color: blue;
+}
+h1,h2{
+    text-align: center;
+    color: orangered;
+}
+.col{
+    padding: 10px;
+    text-align: center;
+    border: solid;
+    margin: auto;
+    
+}
+#Category{
+    background-color: orangered;
+}
+#r200{
+    background-color: orangered;
+}
+#r400{
+    background-color: orangered;
+}
+#r600{
+    background-color: orangered;
+}
+#r800{
+    background-color: orangered
+}
+#r1000{
+    background-color: orangered;
+}
