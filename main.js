@@ -27,7 +27,18 @@ $(() => {
 ]
 
 let score = 0;
-    $('.hist-2').on('click', checkAnswer());
+    $('.hist-2').on('click', function(){
+        const y = prompt(history[0].Question);
+        if (y === history[0].Answer) {
+            alert("correct");
+            score += history[0].points;
+            $('.score').html(score);
+        } else {
+            alert("incorrect")
+            score -= history[0].points;
+            $('.score').html(score);
+        }
+    });
 
     $('.hist-4').on('click', function() {
         const y = prompt(history[1].Question);
@@ -79,15 +90,3 @@ let score = 0;
     });
     
 })
-checkAnswer = () => {
-    const y = prompt(history[0].Question);
-    if (y === history[0].Answer) {
-        alert("correct");
-        score += history[0].points;
-        $('.score').html(score);
-    } else {
-        alert("incorrect")
-        score -= history[0].points;
-        $('.score').html(score);
-    }
-}
