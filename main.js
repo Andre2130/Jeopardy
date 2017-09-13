@@ -25,7 +25,7 @@ $(() => {
         points: 1000
     },
 ]
-const dirtySouth = [{
+    const dirtySouth = [{
     Question:"who coined trap music?",
     Answer:"T.I",
     points: 200
@@ -52,6 +52,84 @@ const dirtySouth = [{
 },
 ]
 const kingOfHipHop = [{
+    Question:"who coined trap music?",
+    Answer:"T.I",
+    points: 200
+},
+{
+    Question:"what was the first rap song?",
+    Answer:"Rappers Delight",
+    points: 400
+},
+{
+    Question:"who is the founder of Hip-Hop?",
+    Answer:"Grand Master Flash",
+    points: 600
+},
+{
+    Question:"How many pillars of Hip-Hop are there?",
+    Answer:"3",
+    points: 800
+},
+{
+    Question:"who is the GOAT?",
+    Answer:"50 Cent",
+    points: 1000
+},
+]
+const queenOfHipHop = [{
+    Question:"who coined trap music?",
+    Answer:"T.I",
+    points: 200
+},
+{
+    Question:"what was the first rap song?",
+    Answer:"Rappers Delight",
+    points: 400
+},
+{
+    Question:"who is the founder of Hip-Hop?",
+    Answer:"Grand Master Flash",
+    points: 600
+},
+{
+    Question:"How many pillars of Hip-Hop are there?",
+    Answer:"3",
+    points: 800
+},
+{
+    Question:"who is the GOAT?",
+    Answer:"50 Cent",
+    points: 1000
+},
+]
+const westCoast = [{
+    Question:"who coined trap music?",
+    Answer:"T.I",
+    points: 200
+},
+{
+    Question:"what was the first rap song?",
+    Answer:"Rappers Delight",
+    points: 400
+},
+{
+    Question:"who is the founder of Hip-Hop?",
+    Answer:"Grand Master Flash",
+    points: 600
+},
+{
+    Question:"How many pillars of Hip-Hop are there?",
+    Answer:"3",
+    points: 800
+},
+{
+    Question:"who is the GOAT?",
+    Answer:"50 Cent",
+    points: 1000
+},
+]
+const worldWide = [{
     Question:"who coined trap music?",
     Answer:"T.I",
     points: 200
@@ -262,5 +340,187 @@ let score = 0;
             $('.score').html(score);
         }
     });
-    
+    $('.qoh2').on('click', function(){
+        const y = prompt(queenOfHipHop[0].Question);
+        if (y === queenOfHipHop[0].Answer) {
+            alert("correct");
+            score += queenOfHipHop[0].points;
+            $('.score').html(score);
+        } else {
+            alert("incorrect")
+            score -= queenOfHipHop[0].points;
+            $('.score').html(score);
+        }
+    });
+
+    $('.qoh4').on('click', function() {
+        const y = prompt(queenOfHipHop[1].Question);
+        if (y === queenOfHipHop[1].Answer) {
+            alert("correct");
+            score += queenOfHipHop[1].points;
+            $('.score').html(score);
+        } else {
+            alert("incorrect")
+            score -= queenOfHipHop[1].points;
+            $('.score').html(score);
+        }
+    });
+    $('.qoh6').on('click', function() {
+        const y = prompt(queenOfHipHop[2].Question);
+        if (y === queenOfHipHop[2].Answer) {
+            alert("correct");
+            score += queenOfHipHop[2].points;
+            $('.score').html(score);
+        } else {
+            alert("incorrect")
+            score -= queenOfHipHop[2].points;
+            $('.score').html(score);
+        }
+    });
+    $('.qoh8').on('click', function() {
+        const y = prompt(queenOfHipHop[3].Question);
+        if (y === queenOfHipHop[3].Answer) {
+            alert("correct");
+            score += queenOfHipHop[3].points;
+            $('.score').html(score);
+        } else {
+            alert("incorrect")
+            score -= queenOfHipHop[3].points;
+            $('.score').html(score);
+        }
+    });
+    $('.qoh10').on('click', function() {
+        const y = prompt(queenOfHipHop[4].Question);
+        if (y === queenOfHipHop[4].Answer) {
+            alert("correct");
+            score += queenOfHipHop[4].points;
+            $('.score').html(score);
+        } else {
+            alert("incorrect")
+            score -= queenOfHipHop[4].points;
+            $('.score').html(score);
+        }
+    });
+    $('.wc2').on('click', function(){
+        const y = prompt(westCoast[0].Question);
+        if (y === westCoast[0].Answer) {
+            alert("correct");
+            score += westCoast[0].points;
+            $('.score').html(score);
+        } else {
+            alert("incorrect")
+            score -= westCoast[0].points;
+            $('.score').html(score);
+        }
+    });
+
+    $('.wc4').on('click', function() {
+        const y = prompt(westCoast[1].Question);
+        if (y === westCoast[1].Answer) {
+            alert("correct");
+            score += westCoast[1].points;
+            $('.score').html(score);
+        } else {
+            alert("incorrect")
+            score -= westCoast[1].points;
+            $('.score').html(score);
+        }
+    });
+    $('.wc6').on('click', function() {
+        const y = prompt(westCoast[2].Question);
+        if (y === westCoast[2].Answer) {
+            alert("correct");
+            score += westCoast[2].points;
+            $('.score').html(score);
+        } else {
+            alert("incorrect")
+            score -= westCoast[2].points;
+            $('.score').html(score);
+        }
+    });
+    $('.wc8').on('click', function() {
+        const y = prompt(westCoast[3].Question);
+        if (y === westCoast[3].Answer) {
+            alert("correct");
+            score += westCoast[3].points;
+            $('.score').html(score);
+        } else {
+            alert("incorrect")
+            score -= westCoast[3].points;
+            $('.score').html(score);
+        }
+    });
+    $('.wc10').on('click', function() {
+        const y = prompt(westCoast[4].Question);
+        if (y === westCoast[4].Answer) {
+            alert("correct");
+            score += westCoast[4].points;
+            $('.score').html(score);
+        } else {
+            alert("incorrect")
+            score -= westCoast[4].points;
+            $('.score').html(score);
+        }
+    });
+    $('.ww2').on('click', function(){
+        const y = prompt(worldWide[0].Question);
+        if (y === worldWide[0].Answer) {
+            alert("correct");
+            score += worldWide[0].points;
+            $('.score').html(score);
+        } else {
+            alert("incorrect")
+            score -= worldWide[0].points;
+            $('.score').html(score);
+        }
+    });
+
+    $('.ww4').on('click', function() {
+        const y = prompt(worldWide[1].Question);
+        if (y === worldWide[1].Answer) {
+            alert("correct");
+            score += worldWide[1].points;
+            $('.score').html(score);
+        } else {
+            alert("incorrect")
+            score -= worldWide[1].points;
+            $('.score').html(score);
+        }
+    });
+    $('.ww6').on('click', function() {
+        const y = prompt(worldWide[2].Question);
+        if (y === worldWide[2].Answer) {
+            alert("correct");
+            score += worldWide[2].points;
+            $('.score').html(score);
+        } else {
+            alert("incorrect")
+            score -= worldWide[2].points;
+            $('.score').html(score);
+        }
+    });
+    $('.ww8').on('click', function() {
+        const y = prompt(worldWide[3].Question);
+        if (y === worldWide[3].Answer) {
+            alert("correct");
+            score += worldWide[3].points;
+            $('.score').html(score);
+        } else {
+            alert("incorrect")
+            score -= worldWide[3].points;
+            $('.score').html(score);
+        }
+    });
+    $('.ww10').on('click', function() {
+        const y = prompt(worldWide[4].Question);
+        if (y === worldWide[4].Answer) {
+            alert("correct");
+            score += worldWide[4].points;
+            $('.score').html(score);
+        } else {
+            alert("incorrect")
+            score -= worldWide[4].points;
+            $('.score').html(score);
+        }
+    });
 })
