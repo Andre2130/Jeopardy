@@ -52,7 +52,7 @@ $(() => {
 },
 ]
 const kingOfHipHop = [{
-    Question:"who coined trap music?",
+    Question:"who is the king of hip-hop?",
     Answer:"T.I",
     points: 200
 },
@@ -78,7 +78,7 @@ const kingOfHipHop = [{
 },
 ]
 const queenOfHipHop = [{
-    Question:"who coined trap music?",
+    Question:"who is the queen of hip-hop?",
     Answer:"T.I",
     points: 200
 },
@@ -104,7 +104,7 @@ const queenOfHipHop = [{
 },
 ]
 const westCoast = [{
-    Question:"who coined trap music?",
+    Question:"who runs the west?",
     Answer:"T.I",
     points: 200
 },
@@ -130,7 +130,7 @@ const westCoast = [{
 },
 ]
 const worldWide = [{
-    Question:"who coined trap music?",
+    Question:"who is the greatest rapper in the world?",
     Answer:"T.I",
     points: 200
 },
