@@ -88,5 +88,66 @@ let score = 0;
             $('.score').html(score);
         }
     });
+    $('.ds2').on('click', function(){
+        const y = prompt(history[0].Question);
+        if (y === history[0].Answer) {
+            alert("correct");
+            score += history[0].points;
+            $('.score').html(score);
+        } else {
+            alert("incorrect")
+            score -= history[0].points;
+            $('.score').html(score);
+        }
+    });
+
+    $('.ds4').on('click', function() {
+        const y = prompt(history[1].Question);
+        if (y === history[1].Answer) {
+            alert("correct");
+            score += history[1].points;
+            $('.score').html(score);
+        } else {
+            alert("incorrect")
+            score -= history[1].points;
+            $('.score').html(score);
+        }
+    });
+    $('.ds6').on('click', function() {
+        const y = prompt(history[2].Question);
+        if (y === history[2].Answer) {
+            alert("correct");
+            score += history[2].points;
+            $('.score').html(score);
+        } else {
+            alert("incorrect")
+            score -= history[2].points;
+            $('.score').html(score);
+        }
+    });
+    $('.ds8').on('click', function() {
+        const y = prompt(history[3].Question);
+        if (y === history[3].Answer) {
+            alert("correct");
+            score += history[3].points;
+            $('.score').html(score);
+        } else {
+            alert("incorrect")
+            score -= history[3].points;
+            $('.score').html(score);
+        }
+    });
+    $('.ds10').on('click', function() {
+        const y = prompt(history[4].Question);
+        if (y === history[4].Answer) {
+            alert("correct");
+            score += history[4].points;
+            $('.score').html(score);
+        } else {
+            alert("incorrect")
+            score -= history[4].points;
+            $('.score').html(score);
+        }
+    });
     
 })
