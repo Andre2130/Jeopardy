@@ -1,33 +1,38 @@
 body{
-    background-color: blue;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZBBNgucuqTQatkA8f4x6ft3alIMwCWTCxVRZOemcPbPFxKyBQ");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1,h2{
     text-align: center;
-    color: orangered;
+    color: red;
     font-family: 'Sedgwick Ave Display', cursive;
+    margin: 50px;
+
 }
 .col{
     padding: 10px;
     text-align: center;
     border: solid;
     margin: auto;
+    font-family: 'Sedgwick Ave Display', cursive;
     
 }
 #Category{
-    background-color: orangered;
+    background-color: red;
 }
 #r200{
-    background-color: orangered;
+    background-color: red;
 }
 #r400{
-    background-color: orangered;
+    background-color: red;
 }
 #r600{
-    background-color: orangered;
+    background-color: red;
 }
 #r800{
-    background-color: orangered
+    background-color: red;
 }
 #r1000{
-    background-color: orangered;
+    background-color: red;
 }
