@@ -1,5 +1,4 @@
 $(() => {
-    let isSelected
     const history = [{
         Question:"who coined trap music?",
         Answer:"T.I",
@@ -554,5 +553,7 @@ let score = 0;
             $('.score').html(score);
         }
         $(".ww10").css("background-color", "black");
+       
     });
+   
 })
