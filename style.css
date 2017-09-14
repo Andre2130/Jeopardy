@@ -4,6 +4,7 @@ body{
 h1,h2{
     text-align: center;
     color: orangered;
+    font-family: 'Sedgwick Ave Display', cursive;
 }
 .col{
     padding: 10px;
