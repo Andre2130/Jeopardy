@@ -67,12 +67,12 @@ const kingOfHipHop = [{
     points: 600
 },
 {
-    Question:"How many pillars of Hip-Hop are there?",
-    Answer:"3",
+    Question:"How old was the Notorious B.I.G. at the time of his death?",
+    Answer:"24",
     points: 800
 },
 {
-    Question:"who is the GOAT?",
+    Question:"who Released a series of street mixtapes in 2002. They became so popular that Eminem heard them and signed him to his record label?",
     Answer:"50 Cent",
     points: 1000
 },
@@ -119,13 +119,13 @@ const westCoast = [{
     points: 600
 },
 {
-    Question:"How many pillars of Hip-Hop are there?",
-    Answer:"3",
+    Question:"Which record label featured artists such as Dr. Dre, Tupac, and Snoop Dogg?",
+    Answer:"Death Row Records",
     points: 800
 },
 {
-    Question:"who is the GOAT?",
-    Answer:"50 Cent",
+    Question:"How many albums did 2Pac release before he was murdered?",
+    Answer:"4",
     points: 1000
 },
 ]
@@ -150,7 +150,7 @@ const worldWide = [{
     points: 800
 },
 {
-    Question:"who had the largest hip-hop debut album of all time?",
+    Question:"who had the largest debut album ever with 9000,000 copies sold first week?",
     Answer:"50 Cent",
     points: 1000
 },
