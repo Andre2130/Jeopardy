@@ -168,7 +168,7 @@ let score = 0;
             alert("incorrect")
             score -= history[0].points;
             $('.score').html(score);
-            $(".hist-2").css("background-color", "yellow");
+            $(".hist-2").css("background-color", "grey");
         }
     });
 
@@ -183,7 +183,7 @@ let score = 0;
             alert("incorrect")
             score -= history[1].points;
             $('.score').html(score);
-            $(".hist-4").css("background-color", "yellow");
+            $(".hist-4").css("background-color", "grey");
         }
     });
     $('.hist-6').on('click', function() {
@@ -197,7 +197,7 @@ let score = 0;
             alert("incorrect")
             score -= history[2].points;
             $('.score').html(score);
-            $(".hist-6").css("background-color", "yellow");
+            $(".hist-6").css("background-color", "grey");
         }
         
     });
@@ -212,7 +212,7 @@ let score = 0;
             alert("incorrect")
             score -= history[3].points;
             $('.score').html(score);
-            $(".hist-8").css("background-color", "yellow");
+            $(".hist-8").css("background-color", "grey");
         }
     });
     $('.hist-10').on('click', function() {
@@ -226,7 +226,7 @@ let score = 0;
             alert("incorrect")
             score -= history[4].points;
             $('.score').html(score);
-            $(".hist-10").css("background-color", "yellow");
+            $(".hist-10").css("background-color", "grey");
         }
     });
     $('.ds2').on('click', function(){
@@ -240,7 +240,7 @@ let score = 0;
             alert("incorrect")
             score -= dirtySouth[0].points;
             $('.score').html(score);
-            $(".ds2").css("background-color", "yellow");
+            $(".ds2").css("background-color", "grey");
         }
     });
 
@@ -255,7 +255,7 @@ let score = 0;
             alert("incorrect")
             score -= dirtySouth[1].points;
             $('.score').html(score);
-            $(".ds4").css("background-color", "yellow");
+            $(".ds4").css("background-color", "grey");
         }
     });
     $('.ds6').on('click', function() {
@@ -269,7 +269,7 @@ let score = 0;
             alert("incorrect")
             score -= dirtySouth[2].points;
             $('.score').html(score);
-            $(".ds6").css("background-color", "yellow");
+            $(".ds6").css("background-color", "grey");
         }
     });
     $('.ds8').on('click', function() {
@@ -283,7 +283,7 @@ let score = 0;
             alert("incorrect")
             score -= dirtySouth[3].points;
             $('.score').html(score);
-            $(".ds8").css("background-color", "yellow");
+            $(".ds8").css("background-color", "grey");
         }
     });
     $('.ds10').on('click', function() {
@@ -297,7 +297,7 @@ let score = 0;
             alert("incorrect")
             score -= dirtySouth[4].points;
             $('.score').html(score);
-            $(".ds10").css("background-color", "yellow");
+            $(".ds10").css("background-color", "grey");
         }
     });
     $('.koh2').on('click', function(){
@@ -311,7 +311,7 @@ let score = 0;
             alert("incorrect")
             score -= kingOfHipHop[0].points;
             $('.score').html(score);
-            $(".koh2").css("background-color", "yellow");
+            $(".koh2").css("background-color", "grey");
         }
     });
 
@@ -326,7 +326,7 @@ let score = 0;
             alert("incorrect")
             score -= kingOfHipHop[1].points;
             $('.score').html(score);
-            $(".koh4").css("background-color", "yellow");
+            $(".koh4").css("background-color", "grey");
         }
     });
     $('.koh6').on('click', function() {
@@ -340,7 +340,7 @@ let score = 0;
             alert("incorrect")
             score -= kingOfHipHop[2].points;
             $('.score').html(score);
-            $(".koh6").css("background-color", "yellow");
+            $(".koh6").css("background-color", "grey");
         }
     });
     $('.koh8').on('click', function() {
@@ -354,7 +354,7 @@ let score = 0;
             alert("incorrect")
             score -= kingOfHipHop[3].points;
             $('.score').html(score);
-            $(".koh8").css("background-color", "yellow");
+            $(".koh8").css("background-color", "grey");
         }
     });
     $('.koh10').on('click', function() {
@@ -368,7 +368,7 @@ let score = 0;
             alert("incorrect")
             score -= kingOfHipHop[4].points;
             $('.score').html(score);
-            $(".koh10").css("background-color", "yellow");
+            $(".koh10").css("background-color", "grey");
         }
     });
     $('.qoh2').on('click', function(){
@@ -382,7 +382,7 @@ let score = 0;
             alert("incorrect")
             score -= queenOfHipHop[0].points;
             $('.score').html(score);
-            $(".qoh2").css("background-color", "yellow");
+            $(".qoh2").css("background-color", "grey");
         }
     });
 
@@ -397,7 +397,7 @@ let score = 0;
             alert("incorrect")
             score -= queenOfHipHop[1].points;
             $('.score').html(score);
-            $(".qoh4").css("background-color", "yellow");
+            $(".qoh4").css("background-color", "grey");
         }
     });
     $('.qoh6').on('click', function() {
@@ -411,7 +411,7 @@ let score = 0;
             alert("incorrect")
             score -= queenOfHipHop[2].points;
             $('.score').html(score);
-            $(".qoh6").css("background-color", "yellow");
+            $(".qoh6").css("background-color", "grey");
         }
     });
     $('.qoh8').on('click', function() {
@@ -425,7 +425,7 @@ let score = 0;
             alert("incorrect")
             score -= queenOfHipHop[3].points;
             $('.score').html(score);
-            $(".qoh8").css("background-color", "yellow");
+            $(".qoh8").css("background-color", "grey");
         }
     });
     $('.qoh10').on('click', function() {
@@ -439,7 +439,7 @@ let score = 0;
             alert("incorrect")
             score -= queenOfHipHop[4].points;
             $('.score').html(score);
-            $(".qoh10").css("background-color", "yellow");
+            $(".qoh10").css("background-color", "grey");
         }
     });
     $('.wc2').on('click', function(){
@@ -453,7 +453,7 @@ let score = 0;
             alert("incorrect")
             score -= westCoast[0].points;
             $('.score').html(score);
-            $(".wc2").css("background-color", "yellow");
+            $(".wc2").css("background-color", "grey");
         }
     });
 
@@ -468,7 +468,7 @@ let score = 0;
             alert("incorrect")
             score -= westCoast[1].points;
             $('.score').html(score);
-            $(".wc4").css("background-color", "yellow");
+            $(".wc4").css("background-color", "grey");
         }
     });
     $('.wc6').on('click', function() {
@@ -482,7 +482,7 @@ let score = 0;
             alert("incorrect")
             score -= westCoast[2].points;
             $('.score').html(score);
-            $(".wc6").css("background-color", "yellow");
+            $(".wc6").css("background-color", "grey");
         }
     });
     $('.wc8').on('click', function() {
@@ -496,7 +496,7 @@ let score = 0;
             alert("incorrect")
             score -= westCoast[3].points;
             $('.score').html(score);
-            $(".wc8").css("background-color", "yellow");
+            $(".wc8").css("background-color", "grey");
         }
     });
     $('.wc10').on('click', function() {
@@ -510,7 +510,7 @@ let score = 0;
             alert("incorrect")
             score -= westCoast[4].points;
             $('.score').html(score);
-            $(".wc10").css("background-color", "yellow");
+            $(".wc10").css("background-color", "grey");
         }
     });
     $('.ww2').on('click', function(){
@@ -524,7 +524,7 @@ let score = 0;
             alert("incorrect")
             score -= worldWide[0].points;
             $('.score').html(score);
-            $(".ww2").css("background-color", "yellow");
+            $(".ww2").css("background-color", "grey");
         }
     });
 
@@ -539,7 +539,7 @@ let score = 0;
             alert("incorrect")
             score -= worldWide[1].points;
             $('.score').html(score);
-            $(".ww4").css("background-color", "yellow");
+            $(".ww4").css("background-color", "grey");
         }
     });
     $('.ww6').on('click', function() {
@@ -553,7 +553,7 @@ let score = 0;
             alert("incorrect")
             score -= worldWide[2].points;
             $('.score').html(score);
-            $(".ww6").css("background-color", "yellow");
+            $(".ww6").css("background-color", "grey");
         }
     });
     $('.ww8').on('click', function() {
@@ -567,7 +567,7 @@ let score = 0;
             alert("incorrect")
             score -= worldWide[3].points;
             $('.score').html(score);
-            $(".ww8").css("background-color", "yellow");
+            $(".ww8").css("background-color", "grey");
         }
     });
     $('.ww10').on('click', function() {
@@ -581,7 +581,7 @@ let score = 0;
             alert("incorrect")
             score -= worldWide[4].points;
             $('.score').html(score);
-            $(".ww10").css("background-color", "yellow");
+            $(".ww10").css("background-color", "grey");
         }
     });
    
