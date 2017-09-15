@@ -1,27 +1,27 @@
 $(() => {
     const history = [{
-        Question:"who coined trap music?",
-        Answer:"T.I",
+        Question:"What is the name of the DJ for the Furious Five?",
+        Answer:"Grandmaster Flash ",
         points: 200
     },
     {
-        Question:"what was the first rap song?",
+        Question:"What was the name of the song that brought rap music to the mainstream in 1979, by the Sugarhill Gang?",
         Answer:"Rappers Delight",
         points: 400
     },
     {
-        Question:"who is the founder of Hip-Hop?",
-        Answer:"Grand Master Flash",
+        Question:"What member of the Wu-Tang Clan died in 2004 inside a recording studio just two days before his 36th birthday?",
+        Answer:"ODB",
         points: 600
     },
     {
-        Question:"How many pillars of Hip-Hop are there?",
-        Answer:"3",
+        Question:"In 1975, DJ Grand Wizard accidentally created a new sound by trying to hold a spinning record in place. The sound became a major element of modern deejaying. What is it called?",
+        Answer:"scratch",
         points: 800
     },
     {
-        Question:"who is the GOAT?",
-        Answer:"50 Cent",
+        Question:"In the 1970s, an East Bronx gang named Savage Seven started to organize cultural events for youths. The gang members formed a hip-hop awareness group in 1973 called what?",
+        Answer:"Zulu Nation",
         points: 1000
     },
 ]
@@ -31,39 +31,39 @@ $(() => {
     points: 200
 },
 {
-    Question:"what was the first rap song?",
-    Answer:"Rappers Delight",
+    Question:"Who is this legendary Memphis rap group that won an academy award for best original song in 2006?",
+    Answer:"Three 6 Mafia",
     points: 400
 },
 {
-    Question:"who is the founder of Hip-Hop?",
-    Answer:"Grand Master Flash",
+    Question:"Which artist is the 'King of Trill?'",
+    Answer:"Bun-B",
     points: 600
 },
 {
-    Question:"How many pillars of Hip-Hop are there?",
-    Answer:"3",
+    Question:"Which of the following artists performed the song 'Hey Ya'?",
+    Answer:"OutKast",
     points: 800
 },
 {
-    Question:"who is the GOAT?",
-    Answer:"50 Cent",
+    Question:"What rapper played for the New Orleans hornets?",
+    Answer:"Master P",
     points: 1000
 },
 ]
 const kingOfHipHop = [{
-    Question:"who is the king of hip-hop?",
-    Answer:"T.I",
+    Question:"What is the stage name of the American rapper with the birth name Marshall Bruce Mathers III?",
+    Answer:"Eminem",
     points: 200
 },
 {
-    Question:"what was the first rap song?",
-    Answer:"Rappers Delight",
+    Question:"Dr.Dre, Jay-Z, Rakim and Truth Hurts team up together in a song called 'The Watcher 2'. What album does that song come from?",
+    Answer:"Jay-Z - 'The Blueprint Vol 2: The Gift And The Curse'",
     points: 400
 },
 {
-    Question:"who is the founder of Hip-Hop?",
-    Answer:"Grand Master Flash",
+    Question:"Who won the album sales competition between Kanye West and 50 Cent",
+    Answer:"Kanye West",
     points: 600
 },
 {
@@ -78,44 +78,44 @@ const kingOfHipHop = [{
 },
 ]
 const queenOfHipHop = [{
-    Question:"who is the queen of hip-hop?",
-    Answer:"T.I",
+    Question:"Who is labeled 'Princess of the Roc' on Roc-A-Fella records?",
+    Answer:"Teairra Mari",
     points: 200
 },
 {
-    Question:"what was the first rap song?",
-    Answer:"Rappers Delight",
+    Question:"Younger sister of rappers Milk D and Gizmo of the group Audio Two, this rapper cut the tracks, 'Cha, Cha, Cha', 'Poor Georgie' and 'Paper Thin'.",
+    Answer:"MC Lyte",
     points: 400
 },
 {
-    Question:"who is the founder of Hip-Hop?",
-    Answer:"Grand Master Flash",
+    Question:"Originally a member of the group, Junior Mafia, this Brooklyn rapper is notorious for her provocative dressing habits and explicit lyrics.",
+    Answer:"Lil Kim",
     points: 600
 },
 {
-    Question:"How many pillars of Hip-Hop are there?",
-    Answer:"3",
+    Question:"What song did Queen Latifah record in the 1980s that celebrated womanhood?",
+    Answer:"Ladies First",
     points: 800
 },
 {
-    Question:"who is the GOAT?",
-    Answer:"50 Cent",
+    Question:"This trio is considered to be the best female rap act of all time, winning five Grammys and numerous other awards for songs like 'Let's Talk About Sex', 'I'll Take Your Man', and 'Shake Your Thang'.",
+    Answer:"Salt N Pepa",
     points: 1000
 },
 ]
 const westCoast = [{
-    Question:"who runs the west?",
-    Answer:"T.I",
+    Question:"This rapper was born O'Shea Jackson and has moved on from his days in N.W.A. to star in movies such as 'Barbershop' (2002) and 'Are We There Yet?' (2005). What is his stage name?",
+    Answer:"Ice Cube",
     points: 200
 },
 {
-    Question:"what was the first rap song?",
-    Answer:"Rappers Delight",
+    Question:"Andre Young is better known as which rapper?",
+    Answer:"Dr.Dre",
     points: 400
 },
 {
-    Question:"who is the founder of Hip-Hop?",
-    Answer:"Grand Master Flash",
+    Question:"Who was the rapper from Compton, California who was at one time signed to G-Unit Records?",
+    Answer:"The Game",
     points: 600
 },
 {
@@ -130,27 +130,27 @@ const westCoast = [{
 },
 ]
 const worldWide = [{
-    Question:"who is the greatest rapper in the world?",
-    Answer:"T.I",
+    Question:"Who holds the world record for fastest rapper",
+    Answer:"Twista",
     points: 200
 },
 {
-    Question:"what was the first rap song?",
-    Answer:"Rappers Delight",
+    Question:"Who holds the world record for longest freestly?",
+    Answer:"Chiddy",
     points: 400
 },
 {
-    Question:"who is the founder of Hip-Hop?",
-    Answer:"Grand Master Flash",
+    Question:"what duo were the first to receive a Grammy for Best Rap Performance?",
+    Answer:"DJ Jazzy Jeff & The Fresh Prince",
     points: 600
 },
 {
-    Question:"How many pillars of Hip-Hop are there?",
-    Answer:"3",
+    Question:"Who has the most #1 solo rap albums of all time?",
+    Answer:"Jay-Z",
     points: 800
 },
 {
-    Question:"who is the GOAT?",
+    Question:"who had the largest hip-hop debut album of all time?",
     Answer:"50 Cent",
     points: 1000
 },
