@@ -187,7 +187,7 @@ const worldWide = [{
 
 let score = 0;
     $('.hist-2').on('click', function(){
-        const y = prompt(history[0].Question);
+        const y = prompt(history[0].Question, history[0].choice);
         if (y === history[0].Answer) {
             alert("correct");
             score += history[0].points;
@@ -202,7 +202,7 @@ let score = 0;
     });
 
     $('.hist-4').on('click', function() {
-        const y = prompt(history[1].Question);
+        const y = prompt(history[1].Question, history[1].choice);
         if (y === history[1].Answer) {
             alert("correct");
             score += history[1].points;
@@ -216,7 +216,7 @@ let score = 0;
         }
     });
     $('.hist-6').on('click', function() {
-        const y = prompt(history[2].Question);
+        const y = prompt(history[2].Question, history[2].choice);
         if (y === history[2].Answer) {
             alert("correct");
             score += history[2].points;
@@ -231,7 +231,7 @@ let score = 0;
         
     });
     $('.hist-8').on('click', function() {
-        const y = prompt(history[3].Question);
+        const y = prompt(history[3].Question, history[3].choice);
         if (y === history[3].Answer) {
             alert("correct");
             score += history[3].points;
@@ -245,7 +245,7 @@ let score = 0;
         }
     });
     $('.hist-10').on('click', function() {
-        const y = prompt(history[4].Question);
+        const y = prompt(history[4].Question, history[4].choice);
         if (y === history[4].Answer) {
             alert("correct");
             score += history[4].points;
@@ -259,7 +259,7 @@ let score = 0;
         }
     });
     $('.ds2').on('click', function(){
-        const y = prompt(dirtySouth[0].Question);
+        const y = prompt(dirtySouth[0].Question, dirtySouth[0].choice);
         if (y === dirtySouth[0].Answer) {
             alert("correct");
             score += dirtySouth[0].points;
@@ -274,7 +274,7 @@ let score = 0;
     });
 
     $('.ds4').on('click', function() {
-        const y = prompt(dirtySouth[1].Question);
+        const y = prompt(dirtySouth[1].Question, dirtySouth[1].choice);
         if (y === dirtySouth[1].Answer) {
             alert("correct");
             score += dirtySouth[1].points;
@@ -288,7 +288,7 @@ let score = 0;
         }
     });
     $('.ds6').on('click', function() {
-        const y = prompt(dirtySouth[2].Question);
+        const y = prompt(dirtySouth[2].Question, dirtySouth[2].choice);
         if (y === dirtySouth[2].Answer) {
             alert("correct");
             score += dirtySouth[2].points;
@@ -302,7 +302,7 @@ let score = 0;
         }
     });
     $('.ds8').on('click', function() {
-        const y = prompt(dirtySouth[3].Question);
+        const y = prompt(dirtySouth[3].Question, dirtySouth[3].choice);
         if (y === dirtySouth[3].Answer) {
             alert("correct");
             score += dirtySouth[3].points;
@@ -316,7 +316,7 @@ let score = 0;
         }
     });
     $('.ds10').on('click', function() {
-        const y = prompt(dirtySouth[4].Question);
+        const y = prompt(dirtySouth[4].Question, dirtySouth[4].choice);
         if (y === dirtySouth[4].Answer) {
             alert("correct");
             score += dirtySouth[4].points;
@@ -330,7 +330,7 @@ let score = 0;
         }
     });
     $('.koh2').on('click', function(){
-        const y = prompt(kingOfHipHop[0].Question);
+        const y = prompt(kingOfHipHop[0].Question, kingOfHipHop[0].choice);
         if (y === kingOfHipHop[0].Answer) {
             alert("correct");
             score += kingOfHipHop[0].points;
@@ -345,7 +345,7 @@ let score = 0;
     });
 
     $('.koh4').on('click', function() {
-        const y = prompt(kingOfHipHop[1].Question);
+        const y = prompt(kingOfHipHop[1].Question, kingOfHipHop[1].choice);
         if (y === kingOfHipHop[1].Answer) {
             alert("correct");
             score += kingOfHipHop[1].points;
@@ -359,7 +359,7 @@ let score = 0;
         }
     });
     $('.koh6').on('click', function() {
-        const y = prompt(kingOfHipHop[2].Question);
+        const y = prompt(kingOfHipHop[2].Question, kingOfHipHop[2].choice);
         if (y === kingOfHipHop[2].Answer) {
             alert("correct");
             score += kingOfHipHop[2].points;
@@ -373,7 +373,7 @@ let score = 0;
         }
     });
     $('.koh8').on('click', function() {
-        const y = prompt(kingOfHipHop[3].Question);
+        const y = prompt(kingOfHipHop[3].Question, kingOfHipHop[3].choice);
         if (y === kingOfHipHop[3].Answer) {
             alert("correct");
             score += kingOfHipHop[3].points;
@@ -387,7 +387,7 @@ let score = 0;
         }
     });
     $('.koh10').on('click', function() {
-        const y = prompt(kingOfHipHop[4].Question);
+        const y = prompt(kingOfHipHop[4].Question, kingOfHipHop[4].choice);
         if (y === kingOfHipHop[4].Answer) {
             alert("correct");
             score += kingOfHipHop[4].points;
@@ -401,7 +401,7 @@ let score = 0;
         }
     });
     $('.qoh2').on('click', function(){
-        const y = prompt(queenOfHipHop[0].Question);
+        const y = prompt(queenOfHipHop[0].Question, queenOfHipHop[0].choice);
         if (y === queenOfHipHop[0].Answer) {
             alert("correct");
             score += queenOfHipHop[0].points;
@@ -416,7 +416,7 @@ let score = 0;
     });
 
     $('.qoh4').on('click', function() {
-        const y = prompt(queenOfHipHop[1].Question);
+        const y = prompt(queenOfHipHop[1].Question, queenOfHipHop[1].choice);
         if (y === queenOfHipHop[1].Answer) {
             alert("correct");
             score += queenOfHipHop[1].points;
@@ -430,7 +430,7 @@ let score = 0;
         }
     });
     $('.qoh6').on('click', function() {
-        const y = prompt(queenOfHipHop[2].Question);
+        const y = prompt(queenOfHipHop[2].Question, queenOfHipHop[2].choice);
         if (y === queenOfHipHop[2].Answer) {
             alert("correct");
             score += queenOfHipHop[2].points;
@@ -444,7 +444,7 @@ let score = 0;
         }
     });
     $('.qoh8').on('click', function() {
-        const y = prompt(queenOfHipHop[3].Question);
+        const y = prompt(queenOfHipHop[3].Question, queenOfHipHop[3].choice);
         if (y === queenOfHipHop[3].Answer) {
             alert("correct");
             score += queenOfHipHop[3].points;
@@ -458,7 +458,7 @@ let score = 0;
         }
     });
     $('.qoh10').on('click', function() {
-        const y = prompt(queenOfHipHop[4].Question);
+        const y = prompt(queenOfHipHop[4].Question, queenOfHipHop[4].choice);
         if (y === queenOfHipHop[4].Answer) {
             alert("correct");
             score += queenOfHipHop[4].points;
@@ -472,7 +472,7 @@ let score = 0;
         }
     });
     $('.wc2').on('click', function(){
-        const y = prompt(westCoast[0].Question);
+        const y = prompt(westCoast[0].Question, westCoast[0].choice);
         if (y === westCoast[0].Answer) {
             alert("correct");
             score += westCoast[0].points;
@@ -487,7 +487,7 @@ let score = 0;
     });
 
     $('.wc4').on('click', function() {
-        const y = prompt(westCoast[1].Question);
+        const y = prompt(westCoast[1].Question, westCoast[1].choice);
         if (y === westCoast[1].Answer) {
             alert("correct");
             score += westCoast[1].points;
@@ -501,7 +501,7 @@ let score = 0;
         }
     });
     $('.wc6').on('click', function() {
-        const y = prompt(westCoast[2].Question);
+        const y = prompt(westCoast[2].Question, westCoast[2].choice);
         if (y === westCoast[2].Answer) {
             alert("correct");
             score += westCoast[2].points;
@@ -515,7 +515,7 @@ let score = 0;
         }
     });
     $('.wc8').on('click', function() {
-        const y = prompt(westCoast[3].Question);
+        const y = prompt(westCoast[3].Question, westCoast[3].choice);
         if (y === westCoast[3].Answer) {
             alert("correct");
             score += westCoast[3].points;
@@ -529,7 +529,7 @@ let score = 0;
         }
     });
     $('.wc10').on('click', function() {
-        const y = prompt(westCoast[4].Question);
+        const y = prompt(westCoast[4].Question, westCoast[4].choice);
         if (y === westCoast[4].Answer) {
             alert("correct");
             score += westCoast[4].points;
@@ -543,7 +543,7 @@ let score = 0;
         }
     });
     $('.ww2').on('click', function(){
-        const y = prompt(worldWide[0].Question);
+        const y = prompt(worldWide[0].Question, worldWide[0].choice);
         if (y === worldWide[0].Answer) {
             alert("correct");
             score += worldWide[0].points;
@@ -558,7 +558,7 @@ let score = 0;
     });
 
     $('.ww4').on('click', function() {
-        const y = prompt(worldWide[1].Question);
+        const y = prompt(worldWide[1].Question, worldWide[1].choice);
         if (y === worldWide[1].Answer) {
             alert("correct");
             score += worldWide[1].points;
@@ -572,7 +572,7 @@ let score = 0;
         }
     });
     $('.ww6').on('click', function() {
-        const y = prompt(worldWide[2].Question);
+        const y = prompt(worldWide[2].Question, worldWide[2].choice);
         if (y === worldWide[2].Answer) {
             alert("correct");
             score += worldWide[2].points;
@@ -586,7 +586,7 @@ let score = 0;
         }
     });
     $('.ww8').on('click', function() {
-        const y = prompt(worldWide[3].Question);
+        const y = prompt(worldWide[3].Question, worldWide[3].choice);
         if (y === worldWide[3].Answer) {
             alert("correct");
             score += worldWide[3].points;
@@ -600,7 +600,7 @@ let score = 0;
         }
     });
     $('.ww10').on('click', function() {
-        const y = prompt(worldWide[4].Question);
+        const y = prompt(worldWide[4].Question, worldWide[4].choice);
         if (y === worldWide[4].Answer) {
             alert("correct");
             score += worldWide[4].points;
