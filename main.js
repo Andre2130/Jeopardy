@@ -1,115 +1,137 @@
 $(() => {
     const history = [{
         Question:"What is the name of the DJ for the Furious Five?",
+        choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
         Answer:"Grandmaster Flash ",
         points: 200
     },
     {
         Question:"What was the name of the song that brought rap music to the mainstream in 1979, by the Sugarhill Gang?",
+        choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
         Answer:"Rappers Delight",
         points: 400
     },
     {
         Question:"What member of the Wu-Tang Clan died in 2004 inside a recording studio just two days before his 36th birthday?",
+        choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
         Answer:"ODB",
         points: 600
     },
     {
         Question:"In 1975, DJ Grand Wizard accidentally created a new sound by trying to hold a spinning record in place. The sound became a major element of modern deejaying. What is it called?",
+        choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
         Answer:"scratch",
         points: 800
     },
     {
         Question:"In the 1970s, an East Bronx gang named Savage Seven started to organize cultural events for youths. The gang members formed a hip-hop awareness group in 1973 called what?",
+        choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
         Answer:"Zulu Nation",
         points: 1000
     },
 ]
     const dirtySouth = [{
     Question:"who coined trap music?",
+    choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
     Answer:"T.I",
     points: 200
 },
 {
     Question:"Who is this legendary Memphis rap group that won an academy award for best original song in 2006?",
+    choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
     Answer:"Three 6 Mafia",
     points: 400
 },
 {
     Question:"Which artist is the 'King of Trill?'",
+    choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
     Answer:"Bun-B",
     points: 600
 },
 {
     Question:"Which of the following artists performed the song 'Hey Ya'?",
+    choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
     Answer:"OutKast",
     points: 800
 },
 {
     Question:"What rapper played for the New Orleans hornets?",
+    choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
     Answer:"Master P",
     points: 1000
 },
 ]
 const kingOfHipHop = [{
     Question:"What is the stage name of the American rapper with the birth name Marshall Bruce Mathers III?",
+    choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
     Answer:"Eminem",
     points: 200
 },
 {
     Question:"Dr.Dre, Jay-Z, Rakim and Truth Hurts team up together in a song called 'The Watcher 2'. What album does that song come from?",
+    choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
     Answer:"Jay-Z - 'The Blueprint Vol 2: The Gift And The Curse'",
     points: 400
 },
 {
     Question:"Who won the album sales competition between Kanye West and 50 Cent",
+    choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
     Answer:"Kanye West",
     points: 600
 },
 {
     Question:"How old was the Notorious B.I.G. at the time of his death?",
+    choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
     Answer:"24",
     points: 800
 },
 {
     Question:"who Released a series of street mixtapes in 2002. They became so popular that Eminem heard them and signed him to his record label?",
+    choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
     Answer:"50 Cent",
     points: 1000
 },
 ]
 const queenOfHipHop = [{
     Question:"Who is labeled 'Princess of the Roc' on Roc-A-Fella records?",
+    choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
     Answer:"Teairra Mari",
     points: 200
 },
 {
     Question:"Younger sister of rappers Milk D and Gizmo of the group Audio Two, this rapper cut the tracks, 'Cha, Cha, Cha', 'Poor Georgie' and 'Paper Thin'.",
+    choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
     Answer:"MC Lyte",
     points: 400
 },
 {
     Question:"Originally a member of the group, Junior Mafia, this Brooklyn rapper is notorious for her provocative dressing habits and explicit lyrics.",
+    choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
     Answer:"Lil Kim",
     points: 600
 },
 {
     Question:"What song did Queen Latifah record in the 1980s that celebrated womanhood?",
+    choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
     Answer:"Ladies First",
     points: 800
 },
 {
     Question:"This trio is considered to be the best female rap act of all time, winning five Grammys and numerous other awards for songs like 'Let's Talk About Sex', 'I'll Take Your Man', and 'Shake Your Thang'.",
+    choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
     Answer:"Salt N Pepa",
     points: 1000
 },
 ]
 const westCoast = [{
     Question:"This rapper was born O'Shea Jackson and has moved on from his days in N.W.A. to star in movies such as 'Barbershop' (2002) and 'Are We There Yet?' (2005). What is his stage name?",
+    choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
     Answer:"Ice Cube",
     points: 200
 },
 {
     Question:"Andre Young is better known as which rapper?",
+    choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
     Answer:"Dr.Dre",
     points: 400
 },
@@ -120,37 +142,44 @@ const westCoast = [{
 },
 {
     Question:"Which record label featured artists such as Dr. Dre, Tupac, and Snoop Dogg?",
+    choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
     Answer:"Death Row Records",
     points: 800
 },
 {
     Question:"How many albums did 2Pac release before he was murdered?",
+    choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
     Answer:"4",
     points: 1000
 },
 ]
 const worldWide = [{
     Question:"Who holds the world record for fastest rapper",
+    choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
     Answer:"Twista",
     points: 200
 },
 {
     Question:"Who holds the world record for longest freestly?",
+    choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
     Answer:"Chiddy",
     points: 400
 },
 {
     Question:"what duo were the first to receive a Grammy for Best Rap Performance?",
+    choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
     Answer:"DJ Jazzy Jeff & The Fresh Prince",
     points: 600
 },
 {
     Question:"Who has the most #1 solo rap albums of all time?",
+    choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
     Answer:"Jay-Z",
     points: 800
 },
 {
     Question:"who had the largest debut album ever with 9000,000 copies sold first week?",
+    choice: "funk Master flex, Grandmaster Flash, DJ Khaled",
     Answer:"50 Cent",
     points: 1000
 },
